@@ -1,0 +1,9 @@
+1.6474019282411313e+09	error	error fetching url{url 15 0 www.baidu.com <nil>} {error 26 0  Get "www.baidu.com": unsupported protocol scheme ""}
+1.6474019284104695e+09	info	success{statusCode 15 0 200 OK <nil>} { 27 0  <nil>}
+1.6474020358900805e+09	error	error fetching url{url 15 0 www.baidu.com <nil>} {error 26 0  Get "www.baidu.com": unsupported protocol scheme ""}
+1.6474020360160887e+09	info	success{statusCode 15 0 200 OK <nil>} { 27 0  <nil>}
+2022-03-16T11:42:39.999+0800	ERROR	error fetching url{url 15 0 www.baidu.com <nil>} {error 26 0  Get "www.baidu.com": unsupported protocol scheme ""}
+2022-03-16T11:42:40.163+0800	INFO	success{statusCode 15 0 200 OK <nil>} { 27 0  <nil>}
+2022-03-16T11:44:30.643+0800	ERROR	04-zap/main.go:66	error fetching url{url 15 0 www.baidu.com <nil>} {error 26 0  Get "www.baidu.com": unsupported protocol scheme ""}
+2022-03-16T11:44:30.815+0800	INFO	04-zap/main.go:72	success{statusCode 15 0 200 OK <nil>} { 27 0  <nil>}
+2022-03-16T11:54:13.737+0800	ERROR	04-zap/main.go:74	error fetching url{url 15 0 www.baidu.com <nil>} {error 26 0  Get "www.baidu.com": unsupported protocol scheme ""}

@@ -1,0 +1,27 @@
+app:
+  name: "bubble"
+  mode: "dev"
+  port: 8081
+
+log:
+  level: "debug"
+  filename: "bubble.log"
+  max_size: 200
+  max_age: 30
+  max_backups: 7
+
+mysql:
+  host: "127.0.0.1"
+  port: "3306"
+  user: "root"
+  password: "root"
+  dbname: "sql_test"
+  max_open_conns:
+  max_idle_conns:
+
+redis:
+  host: "127.0.0.1"
+  port: 6379
+  password: "123456"
+  db: 0
+  pool_size: 100

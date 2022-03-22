@@ -1,0 +1,11 @@
+{"level":"DEBUG","time":"2022-03-16T16:17:26.321+0800","caller":"07-webApp/main.go:34","msg":"logger init success"}
+{"level":"DEBUG","time":"2022-03-16T16:17:38.025+0800","caller":"07-webApp/main.go:34","msg":"logger init success"}
+{"level":"INFO","time":"2022-03-16T16:18:04.721+0800","caller":"logger/main.go:69","msg":"/version","status":404,"method":"GET","path":"/version","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2022-03-16T16:18:06.552+0800","caller":"logger/main.go:69","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36","errors":"","cost":0.0006395}
+{"level":"INFO","time":"2022-03-16T16:18:12.362+0800","caller":"07-webApp/main.go:69","msg":"shutdown server..."}
+{"level":"DEBUG","time":"2022-03-16T19:26:57.242+0800","caller":"07-webApp/main.go:34","msg":"logger init success"}
+{"level":"DEBUG","time":"2022-03-16T19:28:00.390+0800","caller":"07-webApp/main.go:34","msg":"logger init success"}
+{"level":"INFO","time":"2022-03-16T19:28:13.388+0800","caller":"logger/main.go:74","msg":"/version","status":404,"method":"GET","path":"/version","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2022-03-16T19:28:13.836+0800","caller":"logger/main.go:74","msg":"/favicon.ico","status":404,"method":"GET","path":"/favicon.ico","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2022-03-16T19:28:16.263+0800","caller":"logger/main.go:74","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2022-03-16T19:28:46.605+0800","caller":"07-webApp/main.go:69","msg":"shutdown server..."}

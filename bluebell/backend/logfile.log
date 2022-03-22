@@ -1,0 +1,63 @@
+{"level":"DEBUG","time":"2022-03-17T10:04:09.218+0800","caller":"bluebell/main.go:35","msg":"logger init success"}
+{"level":"DEBUG","time":"2022-03-17T10:04:23.901+0800","caller":"bluebell/main.go:35","msg":"logger init success"}
+{"level":"DEBUG","time":"2022-03-17T10:06:33.763+0800","caller":"bluebell/main.go:35","msg":"logger init success"}
+{"level":"INFO","time":"2022-03-17T10:06:39.807+0800","caller":"bluebell/main.go:76","msg":"shutdown server..."}
+{"level":"DEBUG","time":"2022-03-17T11:02:42.490+0800","caller":"bluebell/main.go:35","msg":"logger init success"}
+{"level":"INFO","time":"2022-03-17T11:07:13.048+0800","caller":"bluebell/main.go:76","msg":"shutdown server..."}
+{"level":"DEBUG","time":"2022-03-17T11:07:26.924+0800","caller":"bluebell/main.go:34","msg":"logger init success"}
+{"level":"INFO","time":"2022-03-17T11:07:31.761+0800","caller":"logger/main.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"ApiPOST Runtime +https://www.apipost.cn","errors":"","cost":0.0005393}
+{"level":"INFO","time":"2022-03-17T11:08:34.878+0800","caller":"logger/main.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"ApiPOST Runtime +https://www.apipost.cn","errors":"","cost":0}
+{"level":"INFO","time":"2022-03-17T11:09:46.943+0800","caller":"logger/main.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"ApiPOST Runtime +https://www.apipost.cn","errors":"","cost":0}
+{"level":"INFO","time":"2022-03-17T11:13:57.714+0800","caller":"logger/main.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"ApiPOST Runtime +https://www.apipost.cn","errors":"","cost":0}
+{"level":"INFO","time":"2022-03-17T11:14:02.953+0800","caller":"bluebell/main.go:76","msg":"shutdown server..."}
+{"level":"DEBUG","time":"2022-03-17T11:14:06.241+0800","caller":"bluebell/main.go:34","msg":"logger init success"}
+{"level":"ERROR","time":"2022-03-17T11:14:09.474+0800","caller":"controllers/user.go:25","msg":"invalid param"}
+{"level":"INFO","time":"2022-03-17T11:14:09.474+0800","caller":"logger/main.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"ApiPOST Runtime +https://www.apipost.cn","errors":"","cost":0.0001101}
+{"level":"INFO","time":"2022-03-17T11:14:19.307+0800","caller":"logger/main.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"ApiPOST Runtime +https://www.apipost.cn","errors":"","cost":0}
+{"level":"INFO","time":"2022-03-17T11:21:42.741+0800","caller":"bluebell/main.go:76","msg":"shutdown server..."}
+{"level":"DEBUG","time":"2022-03-17T11:21:46.263+0800","caller":"bluebell/main.go:34","msg":"logger init success"}
+{"level":"ERROR","time":"2022-03-17T11:21:49.099+0800","caller":"controllers/user.go:17","msg":"invalid param","error":"Key: 'SignUpParam.Email' Error:Field validation for 'Email' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-03-17T11:21:49.100+0800","caller":"logger/main.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"ApiPOST Runtime +https://www.apipost.cn","errors":"","cost":0.0010895}
+{"level":"INFO","time":"2022-03-17T11:23:27.454+0800","caller":"bluebell/main.go:76","msg":"shutdown server..."}
+{"level":"DEBUG","time":"2022-03-17T11:23:30.734+0800","caller":"bluebell/main.go:34","msg":"logger init success"}
+{"level":"ERROR","time":"2022-03-17T11:23:35.045+0800","caller":"controllers/user.go:17","msg":"invalid param","error":"Key: 'SignUpParam.Email' Error:Field validation for 'Email' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-03-17T11:23:35.045+0800","caller":"logger/main.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"ApiPOST Runtime +https://www.apipost.cn","errors":"","cost":0.0005248}
+{"level":"INFO","time":"2022-03-17T12:11:52.535+0800","caller":"bluebell/main.go:76","msg":"shutdown server..."}
+{"level":"DEBUG","time":"2022-03-17T12:14:59.639+0800","caller":"bluebell/main.go:34","msg":"logger init success"}
+{"level":"ERROR","time":"2022-03-17T12:15:04.573+0800","caller":"controllers/user.go:16","msg":"invalid param","error":"Key: 'SignUpParam.Username' Error:Field validation for 'Username' failed on the 'required' tag"}
+{"level":"INFO","time":"2022-03-17T12:15:04.573+0800","caller":"logger/main.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"ApiPOST Runtime +https://www.apipost.cn","errors":"","cost":0.0005373}
+{"level":"INFO","time":"2022-03-17T12:15:12.788+0800","caller":"logger/main.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"ApiPOST Runtime +https://www.apipost.cn","errors":"","cost":0.0128505}
+{"level":"INFO","time":"2022-03-17T12:16:10.892+0800","caller":"logger/main.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"ApiPOST Runtime +https://www.apipost.cn","errors":"","cost":0.0054675}
+{"level":"INFO","time":"2022-03-17T12:18:25.556+0800","caller":"bluebell/main.go:76","msg":"shutdown server..."}
+{"level":"DEBUG","time":"2022-03-17T12:18:28.773+0800","caller":"bluebell/main.go:34","msg":"logger init success"}
+{"level":"INFO","time":"2022-03-17T12:18:33.016+0800","caller":"logger/main.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"ApiPOST Runtime +https://www.apipost.cn","errors":"","cost":0.002075}
+{"level":"INFO","time":"2022-03-17T12:21:48.189+0800","caller":"bluebell/main.go:76","msg":"shutdown server..."}
+{"level":"DEBUG","time":"2022-03-17T12:21:51.168+0800","caller":"bluebell/main.go:34","msg":"logger init success"}
+{"level":"ERROR","time":"2022-03-17T12:21:57.811+0800","caller":"controllers/user.go:32","msg":"logic.SignUp failded","error":"sql: no rows in result set"}
+{"level":"INFO","time":"2022-03-17T12:21:57.811+0800","caller":"logger/main.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"ApiPOST Runtime +https://www.apipost.cn","errors":"","cost":0.0037215}
+{"level":"INFO","time":"2022-03-17T12:22:45.735+0800","caller":"bluebell/main.go:76","msg":"shutdown server..."}
+{"level":"DEBUG","time":"2022-03-17T12:22:48.913+0800","caller":"bluebell/main.go:34","msg":"logger init success"}
+{"level":"ERROR","time":"2022-03-17T12:22:52.054+0800","caller":"controllers/user.go:32","msg":"logic.SignUp failed","error":"sql: no rows in result set"}
+{"level":"INFO","time":"2022-03-17T12:22:52.054+0800","caller":"logger/main.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"ApiPOST Runtime +https://www.apipost.cn","errors":"","cost":0.0044164}
+{"level":"ERROR","time":"2022-03-17T12:23:19.296+0800","caller":"controllers/user.go:32","msg":"logic.SignUp failed","error":"sql: no rows in result set"}
+{"level":"INFO","time":"2022-03-17T12:23:19.296+0800","caller":"logger/main.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"ApiPOST Runtime +https://www.apipost.cn","errors":"","cost":0.0040847}
+{"level":"INFO","time":"2022-03-17T12:24:08.430+0800","caller":"bluebell/main.go:76","msg":"shutdown server..."}
+{"level":"DEBUG","time":"2022-03-17T12:24:10.803+0800","caller":"bluebell/main.go:34","msg":"logger init success"}
+{"level":"ERROR","time":"2022-03-17T12:24:13.256+0800","caller":"controllers/user.go:32","msg":"logic.SignUp failed","error":"sql: no rows in result set"}
+{"level":"INFO","time":"2022-03-17T12:24:13.256+0800","caller":"logger/main.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"ApiPOST Runtime +https://www.apipost.cn","errors":"","cost":0.0052971}
+{"level":"INFO","time":"2022-03-17T12:28:33.417+0800","caller":"bluebell/main.go:76","msg":"shutdown server..."}
+{"level":"DEBUG","time":"2022-03-17T12:28:37.124+0800","caller":"bluebell/main.go:34","msg":"logger init success"}
+{"level":"ERROR","time":"2022-03-17T12:28:41.143+0800","caller":"controllers/user.go:32","msg":"logic.SignUp failed","error":"sql: no rows in result set"}
+{"level":"INFO","time":"2022-03-17T12:28:41.143+0800","caller":"logger/main.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"ApiPOST Runtime +https://www.apipost.cn","errors":"","cost":0.0036239}
+{"level":"INFO","time":"2022-03-17T12:30:56.104+0800","caller":"bluebell/main.go:76","msg":"shutdown server..."}
+{"level":"DEBUG","time":"2022-03-17T12:30:59.412+0800","caller":"bluebell/main.go:34","msg":"logger init success"}
+{"level":"ERROR","time":"2022-03-17T12:31:02.123+0800","caller":"controllers/user.go:32","msg":"logic.SignUp failed","error":"sql: no rows in result set"}
+{"level":"INFO","time":"2022-03-17T12:31:02.124+0800","caller":"logger/main.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"ApiPOST Runtime +https://www.apipost.cn","errors":"","cost":0.0040763}
+{"level":"INFO","time":"2022-03-17T12:32:53.141+0800","caller":"bluebell/main.go:76","msg":"shutdown server..."}
+{"level":"DEBUG","time":"2022-03-17T12:32:56.521+0800","caller":"bluebell/main.go:34","msg":"logger init success"}
+{"level":"ERROR","time":"2022-03-17T12:33:00.965+0800","caller":"controllers/user.go:32","msg":"logic.SignUp failed","error":"Error 1364: Field 'email' doesn't have a default value"}
+{"level":"INFO","time":"2022-03-17T12:33:00.966+0800","caller":"logger/main.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"ApiPOST Runtime +https://www.apipost.cn","errors":"","cost":0.0119892}
+{"level":"INFO","time":"2022-03-17T12:33:19.720+0800","caller":"logger/main.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"ApiPOST Runtime +https://www.apipost.cn","errors":"","cost":0.0144828}
+{"level":"ERROR","time":"2022-03-17T12:33:24.174+0800","caller":"controllers/user.go:32","msg":"logic.SignUp failed","error":"用户已存在！"}
+{"level":"INFO","time":"2022-03-17T12:33:24.175+0800","caller":"logger/main.go:74","msg":"/signup","status":200,"method":"POST","path":"/signup","query":"","ip":"127.0.0.1","user-agent":"ApiPOST Runtime +https://www.apipost.cn","errors":"","cost":0.003767}
+{"level":"INFO","time":"2022-03-17T12:41:35.721+0800","caller":"bluebell/main.go:76","msg":"shutdown server..."}
