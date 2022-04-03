@@ -26,15 +26,19 @@ func SignUp(param *models.SignUpParam) (err error) {
 
 // Login 用户登录
 func Login(param *models.LoginParam) (aToken, rToken string, err error) {
+	//func Login(param *models.LoginParam) (aToken string, err error) {
 	user := &models.User{
 		Username: param.Username,
 		Password: param.Password,
 	}
 	if err = mysql.Login(user); err != nil {
 		return "", "", err
+		//return "", err
 	}
 
 	param.UserID = int(user.UserID)
 	// 生成token
-	return jwt.GenToken(user.UserID)
+	//aToken, err = jwt.GenToken(user.UserID)
+	aToken, rToken, err = jwt.GenToken(user.UserID)
+	return
 }

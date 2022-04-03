@@ -2,9 +2,8 @@ package jwt
 
 import (
 	"errors"
-	"time"
-
 	"github.com/dgrijalva/jwt-go"
+	"time"
 )
 
 // MyClaims 自定义声明结构体并内嵌jwt.StandardClaims
@@ -18,10 +17,10 @@ type MyClaims struct {
 // TokenExpireDuration 过期时间
 const TokenExpireDuration = time.Hour * 2
 
-// MySecret Signature密钥 是对前两部分的签名，防止数据篡改。
+// mySecret Signature密钥 是对前两部分的签名，防止数据篡改。
 var mySecret = []byte("gophergogogo")
 
-// GenToken 生成JWT
+//GenToken 生成JWT
 //func GenToken(userID int64) (string, error) {
 //	// 创建一个我们自己的声明
 //	c := MyClaims{
@@ -34,10 +33,10 @@ var mySecret = []byte("gophergogogo")
 //	// 使用指定的签名方法创建签名对象
 //	token := jwt.NewWithClaims(jwt.SigningMethodHS256, c)
 //	// 使用指定的secret签名并获得完整的编码后的字符串token
-//	return token.SignedString(mySecret)
+//	return token.SignedString(MySecret)
 //}
-
-// ParseToken 解析JWT
+//
+//// ParseToken 解析JWT
 //func ParseToken(tokenString string) (*MyClaims, error) {
 //	mc := new(MyClaims)
 //	// 解析token
@@ -72,8 +71,8 @@ func GenToken(userID int64) (aToken, rToken string, err error) {
 
 	// refresh token 不需要存任何自定义数据
 	rToken, err = jwt.NewWithClaims(jwt.SigningMethodHS256, jwt.StandardClaims{
-		ExpiresAt: time.Now().Add(time.Second * 30).Unix(), // 过期时间
-		Issuer:    "bluebell",                              // 签发人
+		ExpiresAt: time.Now().Add(time.Hour * 120).Unix(), // 过期时间
+		Issuer:    "bluebell",                             // 签发人
 	}).SignedString(mySecret)
 	// 使用指定的secret签名并获得完整的编码后的字符串token
 	return
@@ -82,7 +81,7 @@ func GenToken(userID int64) (aToken, rToken string, err error) {
 // ParseToken 解析JWT
 func ParseToken(tokenString string) (claims *MyClaims, err error) {
 	mc := new(MyClaims)
-	token, err := jwt.ParseWithClaims(tokenString, claims, keyFunc)
+	token, err := jwt.ParseWithClaims(tokenString, mc, keyFunc)
 	if err != nil {
 		return nil, err
 	}
